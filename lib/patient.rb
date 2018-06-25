@@ -25,5 +25,8 @@ class Patient
     doctors
   end
 
+ def self.all
+   @@all?
+ end
 
 end
